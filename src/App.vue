@@ -14,7 +14,7 @@ const { message } = storeToRefs(store)
       <div id="flashMessage" v-if="message">
         <h4>{{ message }}</h4>
         </div>
-
+          Toey Version
       <div class="wrapper">
         <nav>
           <RouterLink :to="{ name: 'event-list-view' }">Event</RouterLink>
